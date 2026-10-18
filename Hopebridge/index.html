@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hopebridge: connecting homeless people with shelter and support</title>
+<meta name="description" content="Hopebridge lists shelters, care homes and support organisations in Nashik with phone, WhatsApp and map links.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <nav class="nav" aria-label="Main">
+    <a class="brand" href="#top"><svg width="34" height="24" viewBox="0 0 34 24" aria-hidden="true"><path d="M2 20 Q17 -4 32 20" fill="none" stroke="#ffc93c" stroke-width="4" stroke-linecap="round"/><path d="M2 22h30" stroke="#fff" stroke-width="3" stroke-linecap="round"/></svg>Hopebridge</a>
+    <ul><li><a href="#about">About</a></li><li><a href="#directory">Find support</a></li><li><a href="#how">How it works</a></li></ul>
+  </nav>
+</header>
+<main id="top">
+  <div class="hero">
+    <span class="orb o1" aria-hidden="true"></span><span class="orb o2" aria-hidden="true"></span><span class="orb o3" aria-hidden="true"></span>
+    <div class="wrap hero-in">
+      <div>
+        <p class="pill">Nashik, Maharashtra</p>
+        <h1>Hopebridge</h1>
+        <p class="tagline">Connecting homeless people with shelter and support</p>
+        <p class="lead">Find a safe place, a meal and someone who will listen. Call, message or get directions in one tap.</p>
+        <div class="btns"><a class="btn sun" href="#directory">Find support in Nashik</a><a class="btn glass" href="#how">How it works</a></div>
+      </div>
+      <svg class="art" viewBox="0 0 360 300" aria-hidden="true">
+        <circle cx="180" cy="120" r="92" fill="#ffc93c"/>
+        <circle cx="180" cy="120" r="64" fill="#ff8a1f"/>
+        <path d="M0 230 Q180 70 360 230" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+        <path d="M60 190V230M120 150V230M180 135V230M240 150V230M300 190V230" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+        <rect x="0" y="228" width="360" height="12" rx="6" fill="#fff"/>
+        <path d="M0 262 Q45 244 90 262 T180 262 T270 262 T360 262 V300H0Z" fill="#12b5a6"/>
+        <path d="M0 280 Q45 264 90 280 T180 280 T270 280 T360 280 V300H0Z" fill="#0b8f86"/>
+      </svg>
+    </div>
+  </div>
+
+  <section id="about"><div class="wrap">
+    <h2>About Hopebridge</h2>
+    <p class="sub">Hopebridge is a simple directory that points people without a safe place to stay toward shelters, care centres and NGOs in Nashik. Each listing shows the area, services, phone number and a map link, so a person, a volunteer or a passer-by can act straight away.</p>
+    <div class="stats">
+      <div class="st s1"><strong id="sCount">0</strong><span>organisations listed</span></div>
+      <div class="st s2"><strong id="sRate">0</strong><span>average rating</span></div>
+      <div class="st s3"><strong id="s24">0</strong><span>open 24 hours</span></div>
+      <div class="st s4"><strong id="sPeople">0</strong><span>public ratings</span></div>
+    </div>
+  </div></section>
+
+  <section id="directory" class="alt"><div class="wrap">
+    <h2>Find support in Nashik</h2>
+    <p class="sub">Filter by type of support, or search by name or area.</p>
+    <div class="tools">
+      <label class="search"><span class="sr">Search</span><input id="q" type="search" placeholder="Search name, service or area"></label>
+      <div class="chips" id="chips" role="group" aria-label="Filter by type"></div>
+    </div>
+    <p id="count" class="count" aria-live="polite"></p>
+    <div class="list" id="list"></div>
+  </div></section>
+
+  <section id="how"><div class="wrap">
+    <h2>How it works</h2>
+    <div class="steps">
+      <div class="step c1"><b>1</b><h3>Pick a type of support</h3><p>Use the filters or search box to narrow the list.</p></div>
+      <div class="step c2"><b>2</b><h3>Call or message</h3><p>Confirm space, timings and what to bring before you travel.</p></div>
+      <div class="step c3"><b>3</b><h3>Get directions</h3><p>Directions opens the address in Google Maps.</p></div>
+    </div>
+    <p class="note">Listing details were taken from Justdial search results and may change. Please call to confirm before relying on them. In an emergency, dial 112.</p>
+  </div></section>
+</main>
+<footer><div class="wrap"><span>Hopebridge: connecting homeless people with shelter and support</span><span id="year"></span></div></footer>
+<script src="script.js"></script>
+</body>
+</html>
